@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.news_item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 10rpx 20rpx;
+  border-bottom: 1px solid #b50e03;
+}
+.news_item image {
+  width: 200rpx;
+  height: 150rpx;
+}
+.news_item .right {
+  margin-left: 15rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.news_item .right .tit {
+  font-size: 30rpx;
+}
+.news_item .right .info {
+  font-size: 24rpx;
+}
+.news_item .right .info text:nth-child(2) {
+  margin-left: 30rpx;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vRjovdW1pQXBwLXByb2plY3Qvc2hhbmdjaGVuZy9zaGFuZ2NoZW5nL2NvbXBvbmVudHMvbmV3cy1pdGVtL25ld3MtaXRlbS52dWU/ZGZjMSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6ImNvbXBvbmVudHMvbmV3cy1pdGVtL25ld3MtaXRlbS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAY2hhcnNldCBcIlVURi04XCI7XHJcbi8qKlxyXG4gKiDov5nph4zmmK91bmktYXBw5YaF572u55qE5bi455So5qC35byP5Y+Y6YePXHJcbiAqXHJcbiAqIHVuaS1hcHAg5a6Y5pa55omp5bGV5o+S5Lu25Y+K5o+S5Lu25biC5Zy677yIaHR0cHM6Ly9leHQuZGNsb3VkLm5ldC5jbu+8ieS4iuW+iOWkmuS4ieaWueaPkuS7tuWdh+S9v+eUqOS6hui/meS6m+agt+W8j+WPmOmHj1xyXG4gKiDlpoLmnpzkvaDmmK/mj5Lku7blvIDlj5HogIXvvIzlu7rorq7kvaDkvb/nlKhzY3Nz6aKE5aSE55CG77yM5bm25Zyo5o+S5Lu25Luj56CB5Lit55u05o6l5L2/55So6L+Z5Lqb5Y+Y6YeP77yI5peg6ZyAIGltcG9ydCDov5nkuKrmlofku7bvvInvvIzmlrnkvr/nlKjmiLfpgJrov4fmkK3np6/mnKjnmoTmlrnlvI/lvIDlj5HmlbTkvZPpo47moLzkuIDoh7TnmoRBcHBcclxuICpcclxuICovXHJcbi8qKlxyXG4gKiDlpoLmnpzkvaDmmK9BcHDlvIDlj5HogIXvvIjmj5Lku7bkvb/nlKjogIXvvInvvIzkvaDlj6/ku6XpgJrov4fkv67mlLnov5nkupvlj5jph4/mnaXlrprliLboh6rlt7HnmoTmj5Lku7bkuLvpopjvvIzlrp7njrDoh6rlrprkuYnkuLvpopjlip/og71cclxuICpcclxuICog5aaC5p6c5L2g55qE6aG555uu5ZCM5qC35L2/55So5LqGc2Nzc+mihOWkhOeQhu+8jOS9oOS5n+WPr+S7peebtOaOpeWcqOS9oOeahCBzY3NzIOS7o+eggeS4reS9v+eUqOWmguS4i+WPmOmHj++8jOWQjOaXtuaXoOmcgCBpbXBvcnQg6L+Z5Liq5paH5Lu2XHJcbiAqL1xyXG4vKiDpopzoibLlj5jph48gKi9cclxuLyog6KGM5Li655u45YWz6aKc6ImyICovXHJcbi8qIOaWh+Wtl+WfuuacrOminOiJsiAqL1xyXG4vKiDog4zmma/popzoibIgKi9cclxuLyog6L655qGG6aKc6ImyICovXHJcbi8qIOWwuuWvuOWPmOmHjyAqL1xyXG4vKiDmloflrZflsLrlr7ggKi9cclxuLyog5Zu+54mH5bC65a+4ICovXHJcbi8qIEJvcmRlciBSYWRpdXMgKi9cclxuLyog5rC05bmz6Ze06LedICovXHJcbi8qIOWeguebtOmXtOi3nSAqL1xyXG4vKiDpgI/mmI7luqYgKi9cclxuLyog5paH56ug5Zy65pmv55u45YWzICovXG4ubmV3c19pdGVtIHtcclxuICBkaXNwbGF5OiAtd2Via2l0LWJveDtcclxuICBkaXNwbGF5OiAtd2Via2l0LWZsZXg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBwYWRkaW5nOiAxMHJweCAyMHJweDtcclxuICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2I1MGUwMztcbn1cbi5uZXdzX2l0ZW0gaW1hZ2Uge1xyXG4gIHdpZHRoOiAyMDBycHg7XHJcbiAgaGVpZ2h0OiAxNTBycHg7XG59XG4ubmV3c19pdGVtIC5yaWdodCB7XHJcbiAgbWFyZ2luLWxlZnQ6IDE1cnB4O1xyXG4gIGRpc3BsYXk6IC13ZWJraXQtYm94O1xyXG4gIGRpc3BsYXk6IC13ZWJraXQtZmxleDtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIC13ZWJraXQtYm94LW9yaWVudDogdmVydGljYWw7XHJcbiAgLXdlYmtpdC1ib3gtZGlyZWN0aW9uOiBub3JtYWw7XHJcbiAgLXdlYmtpdC1mbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAtd2Via2l0LWJveC1wYWNrOiBqdXN0aWZ5O1xyXG4gIC13ZWJraXQtanVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG4gICAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xufVxuLm5ld3NfaXRlbSAucmlnaHQgLnRpdCB7XHJcbiAgZm9udC1zaXplOiAzMHJweDtcbn1cbi5uZXdzX2l0ZW0gLnJpZ2h0IC5pbmZvIHtcclxuICBmb250LXNpemU6IDI0cnB4O1xufVxuLm5ld3NfaXRlbSAucmlnaHQgLmluZm8gdGV4dDpudGgtY2hpbGQoMikge1xyXG4gIG1hcmdpbi1sZWZ0OiAzMHJweDtcbn1cclxuIl0sInNvdXJjZVJvb3QiOiIifQ==*/

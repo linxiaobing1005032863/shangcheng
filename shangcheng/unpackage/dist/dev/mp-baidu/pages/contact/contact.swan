@@ -1,0 +1,1 @@
+<view class="contact"><image src="../../static/logo.png"></image><view class="info"><view data-event-opts="{{[['tap',[['phone',['$event']]]]]}}" bindtap="__e">联系电话：4000-9000-9000(点击拨打)</view><view>校区地址:广东省广州市天气</view></view><map class="map" longitude="{{longitude}}" scale="{{scale}}" latitude="{{latitude}}" markers="{{markers}}"></map></view>
